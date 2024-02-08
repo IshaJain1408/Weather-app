@@ -1,0 +1,73 @@
+/* src/components/HomePage.css */
+
+/* .WeatherInfo {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+ 
+/* src/components/HomePage.css */
+
+.WeatherInfo {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background-size: cover;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+
+
+.WeatherCard {
+  width: 200px; /* Set a width for the cards */
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  overflow: hidden; /* Ensure the border-radius is applied to the card content */
+  margin: 10px;
+  width: 200px; 
+
+}
+
+.WeatherCard img {
+  width: 100%;
+  height: auto;
+}
+
+.WeatherCardContent {
+  padding: 10px;
+}
+.WeatherInfo {
+  text-align: center;
+}
+
+.WeatherCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Row {
+  display: flex;
+  margin: 10px;
+}
+
+/* .WeatherCard {
+  margin: 10px;
+  width: 200px; 
+}
+ */
+
+
+
+
+
+
